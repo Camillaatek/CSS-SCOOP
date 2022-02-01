@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.home-section {
+    background-image: linear-gradient(to right, #F5EAFA , #DBEFFD);
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+h1{
+    font-size: 90px;
+    color: #192431;
+}
+span {
+    background-image: linear-gradient(90deg, #03DFDD, #934DE3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+button {
+    
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    border: none;
+    font-size: 15px;
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+}
